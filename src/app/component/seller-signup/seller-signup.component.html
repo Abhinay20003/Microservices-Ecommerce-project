@@ -1,0 +1,51 @@
+
+<body>
+    <div class="container">
+        <!-- Left Section -->
+        <div class="left-panel">
+            <h2>Come join us!</h2>
+            <p>Create an account to access exclusive offers, rewards, and discounts.</p>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-panel">
+            <h2>Signup</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="License Number" required>
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="" disabled selected>Product Category</option>
+                        <option value="electronics">Electronics</option>
+                        <option value="clothing">Clothing</option>
+                        <option value="home-goods">Home Goods</option>
+                        <option value="books">Books</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Confirm Password" required>
+                </div>
+                <div class="sign"><button (click)="redirectToPage()">Sign Up</button></div>
+                <br>
+                <button routerLink="/seller-login" >Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+

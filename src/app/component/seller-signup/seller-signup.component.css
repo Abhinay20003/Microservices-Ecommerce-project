@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fa;
+}
+
+/* Container for two panels */
+.container {
+    display: flex;
+    width: 800px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Panel - Welcome Message */
+.left-panel {
+    background: #007bff;
+    color: white;
+    padding: 40px;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-panel h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.left-panel p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Right Panel - Signup Form */
+.right-panel {
+    width: 50%;
+    padding: 40px;
+    text-align: center;
+}
+
+.right-panel h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Signup Button */
+.signup-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.signup-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Social Icons */
+.social-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #777;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.sign button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding to the button */
+    font-size: 16px; /* Adjust font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .sign button:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+  }
+  
+  .sign button:focus {
+    outline: none; /* Remove the default focus outline */
+  }
+  
+
